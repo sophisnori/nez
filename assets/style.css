@@ -333,7 +333,6 @@ figcaption .credit { text-transform: uppercase; letter-spacing: .06em; font-size
 .site-footer a { color: #f6e6e3; text-decoration: none; }
 .site-footer a:hover { text-decoration: underline; color: #fff; }
 .footer-bottom { grid-column: 1 / -1; border-top: 1px solid #5e2226; padding-top: 14px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: .6rem 1.4rem; font-size: .8rem; }
-.fiction-note { color: #d6aeaa; }
 
 /* 10 · Impressum --------------------------------------------------------- */
 .page { padding-top: 28px; padding-bottom: 56px; }

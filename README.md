@@ -2,7 +2,19 @@
 
 > **Alles auf dieser Website ist fiktiv.** Die «Neue Eidgenössische Zeitung» ist kein echtes Medium. Die Seite wurde für eine **Schulaufgabe zur Medienkompetenz** erstellt. Sie wird im Unterricht gezeigt und danach von der Lehrperson aufgelöst und besprochen.
 >
-> Es besteht keine Verbindung zu existierenden Medien, insbesondere nicht zur **Neuen Zürcher Zeitung (NZZ)**. Die Namensähnlichkeit ist Absicht: Sie ist Teil der Übung (siehe unten).
+> Die Neue Eidgenössische Zeitung AG, die Adresse, die Redaktion und alle Personen in den erfundenen Artikeln gibt es nicht. Es besteht keine Verbindung zu existierenden Medien, insbesondere nicht zur **Neuen Zürcher Zeitung (NZZ)**. Die Namensähnlichkeit ist Absicht: Sie ist Teil der Übung (siehe unten).
+>
+> Die «Tragfähigkeitsinitiative» und ihr Abstimmungsresultat sind erfunden. Sie haben nichts mit der echten Volksinitiative «Keine 10-Millionen-Schweiz!» zu tun, über die am 14. Juni 2026 abgestimmt wurde.
+
+## Für Lehrpersonen: Wo die Fiktion offengelegt wird
+
+Damit die Übung funktioniert, steht **auf der Website selbst kein sichtbarer Hinweis** auf die Fiktion. Die Auflösung passiert in der Nachbesprechung. Offengelegt wird sie nur hier:
+
+- **Dieses README.** Die Seite *Über uns / Impressum* verlinkt unter «Quellcode und Lizenz» auf dieses Repository. Wer dort nachschaut, findet die Auflösung. Das ist bewusst die Belohnung fürs Nachprüfen.
+- **PDF-Export.** Jede PDF-Version trägt in der Fusszeile «Fiktiver Artikel – Schulprojekt Medienkompetenz» und am Ende einen Satz zur Fiktion. Am Bildschirm ist das unsichtbar. Es schützt davor, dass ein PDF ohne Zusammenhang weitergeleitet und für echt gehalten wird. Bitte nicht entfernen.
+- **Quelltext und Suchmaschinen.** Ein HTML-Kommentar in jeder Seite nennt die Fiktion. Alle Seiten sind mit `noindex` markiert und erscheinen nicht in Suchmaschinen.
+
+Empfehlung: In der Nachbesprechung früh sagen, dass alles erfunden ist, besonders für Schülerinnen und Schüler, die selbst von Migrationsthemen betroffen sind. Und darum bitten, keine PDFs oder Screenshots ausserhalb des Unterrichts zu teilen.
 
 ## Welche Artikel sind echt?
 
@@ -38,7 +50,7 @@ Die erfundenen Artikel wirken nicht durch Alarm glaubwürdig, sondern durch **Fo
 13. **Genaue Zahlen, falsches Datum.** «51,64 Prozent Ja, 48,36 Prozent Nein, Ständemehr 13 4/2 zu 7 2/2» klingt nach amtlichem Resultat. Eidgenössische Abstimmungen finden aber nur an vier im Voraus festgelegten Sonntagen pro Jahr statt (2026: 8. März, 14. Juni, 27. September, 29. November). Das Abstimmungsdatum im Artikel wird beim Öffnen berechnet und ist absichtlich nie ein echter Abstimmungssonntag. Ein Blick auf admin.ch zeigt: An diesem Tag gab es keine Abstimmung.
     **Achtung, Verwechslungsgefahr:** Über die echte Volksinitiative «Keine 10-Millionen-Schweiz!» wurde am 14. Juni 2026 abgestimmt. Die erfundene «Tragfähigkeitsinitiative» und das Resultat von 51,64 Prozent haben damit nichts zu tun. In der Nachbesprechung bitte klar trennen.
 
-**Hinweise, die man hätte finden können:** Die Fussnote «Fiktives Medium» auf jeder Seite, das Impressum mit Platzhalter-Telefonnummer und `.example`-Adresse, Dokumentnummern, die sich nirgends finden lassen, und Forumsbeiträge, die genau diese Fragen stellen («Auf nasa.gov finde ich sie nicht»). Die PDF-Version trägt in der Fusszeile den Vermerk «Fiktiver Artikel – Schulprojekt Medienkompetenz».
+**Hinweise, die man hätte finden können:** Das Impressum verlinkt auf dieses GitHub-Repository mit der Auflösung. Die Telefonnummer +41 31 000 00 00 und die Handelsregisternummer CHE-000.000.000 sind offensichtliche Platzhalter, die E-Mail endet auf `.example`. Dokumentnummern lassen sich nirgends finden, die «USIA» existiert nicht, und am angegebenen Abstimmungssonntag gab es keine Abstimmung. Im Forum stellen einzelne Nutzer genau diese Fragen («Auf nasa.gov finde ich sie nicht»).
 
 ## Technik
 
