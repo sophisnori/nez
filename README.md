@@ -60,7 +60,7 @@ Jeder Artikel hat den Button **«Als PDF speichern»**. Er öffnet den Druckdial
 ### Struktur
 
 ```
-swiss-report-forum/
+nez/
 ├── index.html
 ├── bevoelkerungsobergrenze.html
 ├── emp-waffe-baltikum.html
@@ -79,7 +79,7 @@ swiss-report-forum/
 
 ### GitHub Pages
 
-Alle Pfade sind relativ, die Seite funktioniert deshalb auch unter einem Projektpfad wie `https://<benutzername>.github.io/swiss-report-forum/`.
+Alle Pfade sind relativ, die Seite funktioniert deshalb auch unter einem Projektpfad wie `https://<benutzername>.github.io/nez/`.
 
 1. Repository auf GitHub anlegen und den Inhalt dieses Ordners hochladen (die Dateien liegen im Wurzelverzeichnis des Repos)
 2. *Settings → Pages → Build and deployment*: «Deploy from a branch», Branch `main`, Ordner `/ (root)`
