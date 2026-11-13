@@ -65,6 +65,16 @@ Die erfundenen Artikel wirken nicht durch Alarm glaubwürdig, sondern durch **Fo
 
 **Hinweise, die man hätte finden können:** Das Impressum verlinkt auf dieses Repository. Die Telefonnummer +41 31 000 00 00 und die Handelsregisternummer CHE-000.000.000 sind offensichtliche Platzhalter, die E-Mail-Adresse endet auf `.example`. Dokumentnummern lassen sich nirgends finden, die «USIA» existiert nicht, und am angegebenen Abstimmungssonntag gab es keine Abstimmung. Im Forum stellen einzelne Nutzer genau diese Fragen («Auf nasa.gov finde ich sie nicht»).
 
+## Tipp: Vorführen, ohne dass es auffällt
+
+Die Adresse `sophisnori.github.io` würde verraten, dass es keine echte Zeitung ist. Deshalb die Seite im **Vollbildmodus** zeigen:
+
+- Zuerst die Seite öffnen, dann **F11** drücken (Chrome, Edge, Firefox unter Windows). Auf dem Mac: `Ctrl + Cmd + F`. Nochmals F11 beendet den Vollbildmodus.
+- Die Maus **nicht an den oberen Bildschirmrand** bewegen, sonst erscheint die Adressleiste wieder.
+- Beim Fahren über Links zeigt der Browser unten links kurz die Zieladresse an. Also Links anklicken und die Maus danach wegbewegen.
+- Zwischen den Artikeln navigieren geht im Vollbild, der Modus bleibt aktiv.
+- Für den Beamer mit `Ctrl +` auf etwa 110 bis 125 Prozent zoomen, damit der Text auch hinten im Raum lesbar ist.
+
 ## Technik
 
 - Reines HTML, CSS und JavaScript, ohne Framework, ohne Build-Schritt, ohne Backend
