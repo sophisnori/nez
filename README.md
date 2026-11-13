@@ -49,6 +49,11 @@ Die erfundenen Artikel wirken nicht durch Alarm glaubwürdig, sondern durch **Fo
 12. **Satellitenbilder wirken wie Beweise.** Die Satellitenaufnahme im EMP-Artikel ist echt: NASA-Bildmaterial des Militärflugplatzes Kapustin Jar vom 13. Oktober 2024. Mit einer EMP-Waffe oder einem «USIA-Briefing» hat sie nichts zu tun. Ein echtes Bild plus eine erfundene Bildlegende ergibt eine glaubwürdige Falschmeldung.
 13. **Genaue Zahlen, falsches Datum.** «51,64 Prozent Ja, 48,36 Prozent Nein, Ständemehr 13 4/2 zu 7 2/2» klingt nach amtlichem Resultat. Eidgenössische Abstimmungen finden aber nur an vier im Voraus festgelegten Sonntagen pro Jahr statt (2026: 8. März, 14. Juni, 27. September, 29. November). Das Abstimmungsdatum im Artikel wird beim Öffnen berechnet und ist absichtlich nie ein echter Abstimmungssonntag. Ein Blick auf admin.ch zeigt: An diesem Tag gab es keine Abstimmung.
     **Achtung, Verwechslungsgefahr:** Über die echte Volksinitiative «Keine 10-Millionen-Schweiz!» wurde am 14. Juni 2026 abgestimmt. Die erfundene «Tragfähigkeitsinitiative» und das Resultat von 51,64 Prozent haben damit nichts zu tun. In der Nachbesprechung bitte klar trennen.
+14. **Kleine Rechtschreibfehler.** Echte Redaktionen haben ein Korrektorat, Fake-Seiten oft nicht. Im Fliesstext der drei erfundenen Artikel stecken absichtlich je zwei Fehler, Titel und Untertitel sind fehlerfrei, damit der erste Eindruck professionell bleibt:
+    - Bevölkerungsobergrenze: «Stimmbeteilligung» (statt Stimmbeteiligung), «seperaten» (statt separaten)
+    - EMP-Waffe: «Unabhänig» (statt Unabhängig), «Warscheinlichkeit» (statt Wahrscheinlichkeit)
+    - Voyager: «identifitziert» (statt identifiziert), «Telefonkonferrenz» (statt Telefonkonferenz)
+    Der echte Altman-Artikel ist fehlerfrei.
 
 **Hinweise, die man hätte finden können:** Das Impressum verlinkt auf dieses GitHub-Repository mit der Auflösung. Die Telefonnummer +41 31 000 00 00 und die Handelsregisternummer CHE-000.000.000 sind offensichtliche Platzhalter, die E-Mail endet auf `.example`. Dokumentnummern lassen sich nirgends finden, die «USIA» existiert nicht, und am angegebenen Abstimmungssonntag gab es keine Abstimmung. Im Forum stellen einzelne Nutzer genau diese Fragen («Auf nasa.gov finde ich sie nicht»).
 
