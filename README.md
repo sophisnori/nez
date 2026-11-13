@@ -35,7 +35,7 @@ Die erfundenen Artikel wirken nicht durch Alarm glaubwürdig, sondern durch **Fo
 10. **Ähnlicher Name.** «Neue Eidgenössische Zeitung» (NEZ) klingt fast wie die «Neue Zürcher Zeitung» (NZZ). Wer nur flüchtig hinschaut, hält die Seite für ein etabliertes Medium. Dazu passt die Gründungsangabe 1998 im Impressum.
 11. **Echte Fotos zu erfundenen Meldungen.** Das Bundeshaus-Foto ist echt, der Beschluss nicht. Ein echtes Bild beweist nur, dass es den Ort gibt, nicht, dass die Meldung stimmt. Mit einer umgekehrten Bildersuche (z. B. Google Lens, TinEye) lässt sich herausfinden, woher ein Bild stammt und wann es zuerst auftauchte: Das Bundeshaus-Foto stammt von 2019. Das Bild zum EMP-Artikel zeigt keine EMP-Waffe, sondern das bekannte russische Störsystem «Krasukha-4», fotografiert im August 2022 an der Rüstungsmesse «Army-2022» bei Moskau. Ein echtes Militärfoto aus einem anderen Zusammenhang, mit einer neuen Bildlegende versehen: Genau so funktionieren viele Falschmeldungen zum Ukraine-Krieg.
 12. **Satellitenbilder wirken wie Beweise.** Die Satellitenaufnahme im EMP-Artikel ist echt: NASA-Bildmaterial des Militärflugplatzes Kapustin Jar vom 13. Oktober 2024. Mit einer EMP-Waffe oder einem «USIA-Briefing» hat sie nichts zu tun. Ein echtes Bild plus eine erfundene Bildlegende ergibt eine glaubwürdige Falschmeldung.
-13. **Genaue Zahlen, falsches Datum.** «51,64 Prozent Ja, 48,36 Prozent Nein, Ständemehr 13 4/2 zu 7 2/2» klingt nach amtlichem Resultat. Eidgenössische Abstimmungen finden aber nur an vier im Voraus festgelegten Sonntagen statt. 2026 waren das der 8. März, der 14. Juni, der 27. September und der 29. November. Am 1. November 2026 gab es keine Abstimmung. Ein Blick auf admin.ch hätte genügt.
+13. **Genaue Zahlen, falsches Datum.** «51,64 Prozent Ja, 48,36 Prozent Nein, Ständemehr 13 4/2 zu 7 2/2» klingt nach amtlichem Resultat. Eidgenössische Abstimmungen finden aber nur an vier im Voraus festgelegten Sonntagen pro Jahr statt (2026: 8. März, 14. Juni, 27. September, 29. November). Das Abstimmungsdatum im Artikel wird beim Öffnen berechnet und ist absichtlich nie ein echter Abstimmungssonntag. Ein Blick auf admin.ch zeigt: An diesem Tag gab es keine Abstimmung.
     **Achtung, Verwechslungsgefahr:** Über die echte Volksinitiative «Keine 10-Millionen-Schweiz!» wurde am 14. Juni 2026 abgestimmt. Die erfundene «Tragfähigkeitsinitiative» und das Resultat von 51,64 Prozent haben damit nichts zu tun. In der Nachbesprechung bitte klar trennen.
 
 **Hinweise, die man hätte finden können:** Die Fussnote «Fiktives Medium» auf jeder Seite, das Impressum mit Platzhalter-Telefonnummer und `.example`-Adresse, Dokumentnummern, die sich nirgends finden lassen, und Forumsbeiträge, die genau diese Fragen stellen («Auf nasa.gov finde ich sie nicht»). Die PDF-Version trägt in der Fusszeile den Vermerk «Fiktiver Artikel – Schulprojekt Medienkompetenz».
@@ -47,6 +47,19 @@ Die erfundenen Artikel wirken nicht durch Alarm glaubwürdig, sondern durch **Fo
 - Ausschliesslich frei lizenzierte Fotos von Wikimedia Commons in `assets/img/` (siehe Bildnachweise)
 - Formulare (Forum, Newsletter) versenden **keine** Daten
 - Alle Seiten tragen `<meta name="robots" content="noindex, nofollow">`, damit die erfundenen Artikel nicht in Suchmaschinen auftauchen
+
+### Live-Datum
+
+Alle Zeitangaben werden beim Öffnen aus der aktuellen Uhrzeit berechnet (`assets/main.js`), damit die Seite am Tag der Präsentation aktuell wirkt:
+
+- Kopfzeile, «Stand», «Aktualisiert vor … Min.» und die Zeiten im Forum zählen live weiter (alle 30 Sekunden).
+- Ticker und Kurzmeldungen zeigen Uhrzeiten von heute.
+- Die drei erfundenen Artikel erscheinen «heute» bzw. «gestern», alle Daten im Text verschieben sich mit, auch Wochentage («am Mittwochabend»). Erscheinungstage fallen nie auf ein Wochenende.
+- Das Abstimmungsdatum ist der Sonntag vor dem Artikel. Fällt er auf einen echten Abstimmungssonntag, rückt er eine Woche zurück. Die Liste der echten Termine steht in `REAL_VOTE_DAYS` in `assets/main.js`; für Präsentationen nach Februar 2027 bitte die neuen Termine von admin.ch ergänzen.
+- **Der Altman-Artikel bleibt auf seinem echten Datum (5. November 2026).** Er ist ein echter Bericht.
+- Ohne JavaScript bleiben die ursprünglichen Daten (November 2026) stehen.
+
+Für eigene Artikel: `<body data-pub-ago="160">` (erschien vor 160 Minuten) oder `<body data-pub-day="-1" data-pub-time="09:15">`, Datumsangaben im Text als `<span data-d="-2" data-f="d">…</span>` (zwei Tage vor Erscheinen). Details im Kommentar oben in `assets/main.js`.
 
 ### PDF-Export
 
