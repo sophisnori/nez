@@ -34,7 +34,7 @@ Die erfundenen Artikel wirken nicht durch Alarm glaubwürdig, sondern durch **Fo
 9. **Teilen-Aufforderung.** «Teilen Sie den Artikel mit Menschen, die es wissen sollten» nutzt Verantwortungsgefühl als Verbreitungsmotor.
 10. **Ähnlicher Name.** «Neue Eidgenössische Zeitung» (NEZ) klingt fast wie die «Neue Zürcher Zeitung» (NZZ). Wer nur flüchtig hinschaut, hält die Seite für ein etabliertes Medium. Dazu passt die Gründungsangabe 1998 im Impressum.
 11. **Echte Fotos zu erfundenen Meldungen.** Das Bundeshaus-Foto ist echt, der Beschluss nicht. Ein echtes Bild beweist nur, dass es den Ort gibt, nicht, dass die Meldung stimmt. Mit einer umgekehrten Bildersuche (z. B. Google Lens, TinEye) lässt sich herausfinden, woher ein Bild stammt und wann es zuerst auftauchte: Das Bundeshaus-Foto stammt von 2019. Das Bild zum EMP-Artikel zeigt keine EMP-Waffe, sondern das bekannte russische Störsystem «Krasukha-4», fotografiert im August 2022 an der Rüstungsmesse «Army-2022» bei Moskau. Ein echtes Militärfoto aus einem anderen Zusammenhang, mit einer neuen Bildlegende versehen: Genau so funktionieren viele Falschmeldungen zum Ukraine-Krieg.
-12. **Grafiken wirken wie Daten.** Die Bevölkerungskurve und die «Satellitenaufnahme» sehen nach Beleg aus, sind aber selbst gezeichnet.
+12. **Satellitenbilder wirken wie Beweise.** Die Satellitenaufnahme im EMP-Artikel ist echt: NASA-Bildmaterial des Militärflugplatzes Kapustin Jar vom 13. Oktober 2024. Mit einer EMP-Waffe oder einem «USIA-Briefing» hat sie nichts zu tun. Ein echtes Bild plus eine erfundene Bildlegende ergibt eine glaubwürdige Falschmeldung.
 
 **Hinweise, die man hätte finden können:** Die Fussnote «Fiktives Medium» auf jeder Seite, das Impressum mit Platzhalter-Telefonnummer und `.example`-Adresse, Dokumentnummern, die sich nirgends finden lassen, und Forumsbeiträge, die genau diese Fragen stellen («Auf nasa.gov finde ich sie nicht»). Die PDF-Version trägt in der Fusszeile den Vermerk «Fiktiver Artikel – Schulprojekt Medienkompetenz».
 
@@ -42,7 +42,7 @@ Die erfundenen Artikel wirken nicht durch Alarm glaubwürdig, sondern durch **Fo
 
 - Reines HTML, CSS und JavaScript, ohne Framework, ohne Build-Schritt, ohne Backend
 - Ein Stylesheet (`assets/style.css`), ein kleines Skript (`assets/main.js`)
-- Fotos (frei lizenziert, siehe Bildnachweise) und selbst erstellte SVG-Grafiken in `assets/img/`
+- Ausschliesslich frei lizenzierte Fotos von Wikimedia Commons in `assets/img/` (siehe Bildnachweise)
 - Formulare (Forum, Newsletter) versenden **keine** Daten
 - Alle Seiten tragen `<meta name="robots" content="noindex, nofollow">`, damit die erfundenen Artikel nicht in Suchmaschinen auftauchen
 
@@ -71,7 +71,7 @@ nez/
 │   ├── style.css
 │   ├── main.js
 │   ├── favicon.svg
-│   └── img/ (foto-*.jpg, bevoelkerung.svg, satellit.svg, voyager.svg, ram.svg)
+│   └── img/ (foto-*.jpg, foto-kapustin-jar-sat.png)
 ├── .nojekyll
 ├── LICENSE
 └── README.md
@@ -94,7 +94,9 @@ Alle Pfade sind relativ, die Seite funktioniert deshalb auch unter einem Projekt
 | `foto-ewk-antennen.jpg`, Antennen des Störsystems Krasukha-4, Messe «Army-2022» | Mike1979 Russia | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:1RL257E_Krasukha-4_Army-2022_2022-08-20_2461.jpg) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 | `foto-altman-ted.jpg`, Sam Altman an der TED-Konferenz, April 2025 | Steve Jurvetson | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sam_Altman_speaking_at_TED.jpg) | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/) |
 | `foto-mainboard.jpg`, Gaming-Mainboard | PantheraLeo1359531 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Asus-ROG-Strix-Z390-F-Gaming-Motherboard_20201120_DSC6025.jpg) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
-| alle `.svg`-Grafiken | selbst erstellt | – | MIT (wie der Code) |
+| `foto-nationalratssaal.jpg`, Nationalratssaal | Parlamentsdienste der Bundesversammlung | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Nationalratssaal_mit_Dach.jpg) | Namensnennung |
+| `foto-kapustin-jar-sat.png`, Satellitenbild Kapustin Jar, 13.10.2024 (Kartenbedienelemente weggeschnitten) | NASA FIRMS | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:NASA_FIRMS_2024-10-13_Kapustin_Yar.png) | gemeinfrei |
+| `foto-dsn-canberra.jpg`, Deep Space Network Canberra | NASA/JPL | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:DSN_Canberra_complex.jpg) | gemeinfrei |
 
 Die Fotos wurden auf 1600 px Breite verkleinert und auf der Website auf 16:9 zugeschnitten. Die Bildlegenden auf der Website und die Seite *Impressum → Bildnachweise* nennen Urheber und Lizenz. Das Bundeshaus- und das Krasukha-Foto stehen unter CC BY-SA 4.0: Wer sie verändert weitergibt, muss die veränderte Fassung unter derselben Lizenz teilen.
 

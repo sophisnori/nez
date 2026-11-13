@@ -456,3 +456,6 @@ figcaption .credit a { color: inherit; }
 
 /* Hochformat-Porträt: Ausschnitt auf Kopf und Schultern */
 .lead-figure img.crop-face, .card figure img.crop-face, .related img.crop-face { object-position: 50% 6%; }
+
+/* Hochformat-Foto im Text auf 16:9 zuschneiden */
+.body-figure img.crop-169 { aspect-ratio: 16 / 9; object-fit: cover; object-position: 50% 58%; }
