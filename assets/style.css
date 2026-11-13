@@ -450,3 +450,6 @@ figcaption .credit a { color: inherit; }
   .body-figure { margin: 10pt 0; break-inside: avoid; }
   .body-figure img { max-height: 80mm; object-fit: contain; background: none; }
 }
+
+/* Bild mit Hauptmotiv in der Mitte */
+img.crop-center { object-position: 50% 55%; }
