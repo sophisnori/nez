@@ -21,7 +21,7 @@ Empfehlung: In der Nachbesprechung früh sagen, dass alles erfunden ist, besonde
 | Artikel | Datei | Status |
 |---|---|---|
 | Nach knappem Ja zur Bevölkerungsobergrenze: Bundesrat schlägt Ausschaffungen vor | `bevoelkerungsobergrenze.html` | ❌ **Erfunden**. Es gibt keine «Tragfähigkeitsinitiative», kein Abstimmungsresultat von 51,64 Prozent, keinen Vorschlag des Bundesrats, keine Arbeitsgruppe «AG-BE40» und keine der genannten Personen. |
-| Russland präsentiert neue EMP-Waffe: USIA warnt vor Angriff auf das Baltikum | `emp-waffe-baltikum.html` | ❌ **Erfunden**. «Sarniza-M», das Briefing, der Generaloberst und die Organisation «Unified Strategic Intelligence Assessment» existieren nicht. (Eine echte «USIA», die *U.S. Information Agency*, gab es bis 1999. Sie hat damit nichts zu tun.) |
+| Russland präsentiert neue EMP-Waffe: USIA warnt vor Angriff auf das Baltikum | `emp-waffe-baltikum.html` | ❌ **Erfunden**. «Sarniza-M», das Briefing, der Generaloberst und die «United States Intelligence Agency (USIA)» existieren nicht. Die echten US-Nachrichtendienste heissen CIA, NSA, DIA usw. (Eine echte «USIA», die *U.S. Information Agency*, gab es bis 1999. Sie hat damit nichts zu tun.) |
 | Voyager 1 empfängt Signal: Regierungen wollen «Kontakt aufnehmen» | `voyager-signal.html` | ❌ **Erfunden**. Es gibt keine NASA-Mitteilung 26-114, kein solches Signal und keine der zitierten Personen. Die Hintergrundfakten zur Sonde (Start 1977, Datenrate, Entfernung) stimmen. |
 | OpenAI-Chef Altman: Arbeitsspeicher in privaten PCs sei «ziemlich furchtbar» genutzt | `altman-ram.html` | ✅ **Echt** (Stand 5. November 2026), in eigenen Worten zusammengefasst, Zitate sinngemäss übersetzt. |
 
