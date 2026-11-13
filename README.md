@@ -33,6 +33,8 @@ Die erfundenen Artikel wirken nicht durch Alarm glaubwürdig, sondern durch **Fo
 8. **Ruhiger Artikel, chaotisches Forum.** Der Text bleibt sachlich, die Emotionen (Wut, Empörung, Angst) übernehmen die Kommentare. Leserinnen und Leser übernehmen oft die Stimmung des Forums.
 9. **Teilen-Aufforderung.** «Teilen Sie den Artikel mit Menschen, die es wissen sollten» nutzt Verantwortungsgefühl als Verbreitungsmotor.
 10. **Ähnlicher Name.** «SRF» erinnert an ein bekanntes Medium, obwohl Gestaltung und Name verschieden sind.
+11. **Echte Fotos zu erfundenen Meldungen.** Das Bundeshaus-Foto ist echt, der Beschluss nicht. Ein echtes Bild beweist nur, dass es den Ort gibt, nicht, dass die Meldung stimmt. Mit einer umgekehrten Bildersuche (z. B. Google Lens, TinEye) lässt sich herausfinden, woher ein Bild stammt und wann es zuerst auftauchte: Das Bundeshaus-Foto stammt von 2019.
+12. **Grafiken wirken wie Daten.** Die Bevölkerungskurve und die «Satellitenaufnahme» sehen nach Beleg aus, sind aber selbst gezeichnet.
 
 **Hinweise, die man hätte finden können:** Die Fussnote «Fiktives Medium» auf jeder Seite, das Impressum mit Platzhalter-Telefonnummer und `.example`-Adresse, Dokumentnummern, die sich nirgends finden lassen, und Forumsbeiträge, die genau diese Fragen stellen («Auf nasa.gov finde ich sie nicht»). Die PDF-Version trägt in der Fusszeile den Vermerk «Fiktiver Artikel – Schulprojekt Medienkompetenz».
 
@@ -40,7 +42,7 @@ Die erfundenen Artikel wirken nicht durch Alarm glaubwürdig, sondern durch **Fo
 
 - Reines HTML, CSS und JavaScript, ohne Framework, ohne Build-Schritt, ohne Backend
 - Ein Stylesheet (`assets/style.css`), ein kleines Skript (`assets/main.js`)
-- Bilder als SVG-Grafiken in `assets/img/`
+- Fotos (frei lizenziert, siehe Bildnachweise) und selbst erstellte SVG-Grafiken in `assets/img/`
 - Formulare (Forum, Newsletter) versenden **keine** Daten
 - Alle Seiten tragen `<meta name="robots" content="noindex, nofollow">`, damit die erfundenen Artikel nicht in Suchmaschinen auftauchen
 
@@ -69,7 +71,7 @@ swiss-report-forum/
 │   ├── style.css
 │   ├── main.js
 │   ├── favicon.svg
-│   └── img/ (bevoelkerung.svg, satellit.svg, voyager.svg, ram.svg)
+│   └── img/ (foto-*.jpg, bevoelkerung.svg, satellit.svg, voyager.svg, ram.svg)
 ├── .nojekyll
 ├── LICENSE
 └── README.md
@@ -83,6 +85,17 @@ Alle Pfade sind relativ, die Seite funktioniert deshalb auch unter einem Projekt
 2. *Settings → Pages → Build and deployment*: «Deploy from a branch», Branch `main`, Ordner `/ (root)`
 3. Nach ein bis zwei Minuten ist die Seite unter der angezeigten Adresse erreichbar
 
+## Bildnachweise
+
+| Bild | Urheber | Quelle | Lizenz |
+|---|---|---|---|
+| `foto-bundeshaus.jpg`, Bundeshaus Bern | Axel Tschentscher | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bern_Parliament_Plaza_Flagged_Wide_2019-09-13_23-11.jpg) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
+| `foto-voyager.jpg`, Voyager (künstlerische Darstellung) | NASA/JPL-Caltech | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:An_artist%E2%80%99s_concept_of_the_Voyager_spacecraft.jpg) | gemeinfrei |
+| `foto-mainboard.jpg`, Gaming-Mainboard | PantheraLeo1359531 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Asus-ROG-Strix-Z390-F-Gaming-Motherboard_20201120_DSC6025.jpg) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
+| alle `.svg`-Grafiken | selbst erstellt | – | MIT (wie der Code) |
+
+Die Fotos wurden auf 1600 px Breite verkleinert und auf der Website auf 16:9 zugeschnitten. Die Bildlegenden auf der Website und die Seite *Impressum → Bildnachweise* nennen Urheber und Lizenz. Das Bundeshaus-Foto steht unter CC BY-SA 4.0: Wer es verändert weitergibt, muss die veränderte Fassung unter derselben Lizenz teilen.
+
 ## Lizenz
 
-Code und Texte stehen unter der [MIT-Lizenz](LICENSE). Bitte die Seite nur mit diesem Hinweis auf die Fiktion weitergeben.
+Code und Texte stehen unter der [MIT-Lizenz](LICENSE). Die Fotos haben ihre eigenen Lizenzen (siehe oben). Bitte die Seite nur mit diesem Hinweis auf die Fiktion weitergeben.

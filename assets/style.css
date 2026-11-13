@@ -434,3 +434,19 @@ figcaption .credit { text-transform: uppercase; letter-spacing: .06em; font-size
   .print-footnote { font-family: Arial, sans-serif; font-size: 7.5pt; color: #555; border-top: .5pt solid #999; padding-top: 4pt; margin-top: 14pt; }
   * { -webkit-print-color-adjust: exact; print-color-adjust: exact; box-shadow: none !important; }
 }
+
+/* 12 · Fotos (ab v2) ------------------------------------------------------
+   Einheitlicher 16:9-Ausschnitt für Aufmacher, Karten und Sidebar,
+   damit Fotos mit anderem Seitenverhältnis das Raster nicht sprengen. */
+.lead-figure img,
+.lead-story figure img,
+.card figure img { aspect-ratio: 16 / 9; object-fit: cover; object-position: 50% 25%; width: 100%; }
+.body-figure { margin: 1.8em 0; font-family: var(--sans); }
+.body-figure img { width: 100%; background: #dfe5ea; }
+figcaption .credit a { color: inherit; }
+
+@media print {
+  .lead-figure img { aspect-ratio: 16 / 9; object-fit: cover; max-height: none; }
+  .body-figure { margin: 10pt 0; break-inside: avoid; }
+  .body-figure img { max-height: 80mm; object-fit: contain; background: none; }
+}
