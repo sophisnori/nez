@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="t d">
+  <title id="t">Illustration: Raumsonde Voyager 1 und Signalverlauf</title>
+  <desc id="d">Die Raumsonde mit ihrer grossen Parabolantenne vor dunklem Sternenhimmel. Unten ein Diagramm mit einem regelmässigen Signalmuster, beschriftet mit Kanal und Frequenz.</desc>
+  <defs>
+    <radialGradient id="sky" cx=".7" cy=".3" r=".9">
+      <stop offset="0" stop-color="#1b2f4a"/>
+      <stop offset=".6" stop-color="#0a1322"/>
+      <stop offset="1" stop-color="#05080f"/>
+    </radialGradient>
+    <linearGradient id="dish" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f4f1e8"/><stop offset="1" stop-color="#9a978d"/>
+    </linearGradient>
+    <pattern id="stars" width="160" height="120" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="18" r="1.1" fill="#fff"/><circle cx="70" cy="44" r=".7" fill="#cfe"/>
+      <circle cx="120" cy="10" r="1.4" fill="#fff"/><circle cx="140" cy="90" r=".8" fill="#fff"/>
+      <circle cx="40" cy="100" r="1" fill="#dde"/><circle cx="96" cy="78" r=".6" fill="#fff"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="675" fill="url(#sky)"/>
+  <rect width="1200" height="480" fill="url(#stars)" opacity=".85"/>
+  <circle cx="160" cy="120" r="2.2" fill="#fff"/><circle cx="980" cy="70" r="2" fill="#fff"/>
+
+  <!-- Sonde -->
+  <g transform="translate(640 230) rotate(-14)">
+    <line x1="-20" y1="20" x2="-330" y2="80" stroke="#b9b6aa" stroke-width="4"/>
+    <line x1="30" y1="40" x2="300" y2="150" stroke="#b9b6aa" stroke-width="3"/>
+    <rect x="-370" y="68" width="48" height="26" fill="#6e6a60"/>
+    <circle cx="300" cy="150" r="10" fill="#8b877c"/>
+    <rect x="-40" y="10" width="90" height="60" fill="#6f6658"/>
+    <rect x="-40" y="10" width="90" height="12" fill="#c7a548"/>
+    <ellipse cx="5" cy="-10" rx="150" ry="60" fill="url(#dish)"/>
+    <ellipse cx="5" cy="-14" rx="128" ry="46" fill="#d6d2c6"/>
+    <line x1="5" y1="-14" x2="5" y2="-90" stroke="#b9b6aa" stroke-width="3"/>
+    <circle cx="5" cy="-92" r="6" fill="#e6e2d6"/>
+  </g>
+
+  <!-- Signalband -->
+  <rect x="0" y="480" width="1200" height="195" fill="#060b14" opacity=".9"/>
+  <g stroke="#1d3350" stroke-width="1">
+    <line x1="60" y1="520" x2="1140" y2="520"/><line x1="60" y1="575" x2="1140" y2="575"/><line x1="60" y1="630" x2="1140" y2="630"/>
+  </g>
+  <polyline fill="none" stroke="#5ee0d2" stroke-width="2.4" stroke-linejoin="round"
+    points="60,578 100,574 140,580 180,571 220,579 250,576 270,540 285,612 300,548 315,604 330,575 380,577 420,573 450,578 470,538 485,614 500,546 515,606 530,574 580,578 620,572 650,577 670,536 685,616 700,545 715,605 730,576 780,573 820,579 850,575 870,537 885,615 900,547 915,604 930,575 980,577 1020,572 1060,578 1100,574 1140,577"/>
+  <g font-family="IBM Plex Sans, Segoe UI, Arial, sans-serif" font-size="16" fill="#8fb0c8">
+    <text x="60" y="508">PWS · Kanal 3 · 10,4 kHz · Rohdaten 1979, neu prozessiert 2026</text>
+    <text x="1140" y="508" text-anchor="end">Wiederholungsintervall 200 s</text>
+    <text x="60" y="660" fill="#5d7891">Illustration: Swiss Report Forum · Signalverlauf schematisch</text>
+  </g>
+</svg>

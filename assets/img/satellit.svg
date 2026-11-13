@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="t d">
+  <title id="t">Satellitenaufnahme eines Testgeländes</title>
+  <desc id="d">Körnige Satellitenaufnahme in Graugrün: Steppengelände mit Strassen, einer grossen Halle, Fahrzeugkolonnen und zwei markierten Bereichen A und B. Am Rand Zeitstempel und Koordinaten.</desc>
+  <defs>
+    <filter id="terrain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency=".012 .018" numOctaves="5" seed="7" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 .42  0 0 0 0 .45  0 0 0 0 .38  .9 .5 0 0 0" result="c"/>
+      <feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="1" seed="3" result="g"/>
+      <feColorMatrix in="g" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 .22 0" result="grain"/>
+      <feMerge><feMergeNode in="c"/><feMergeNode in="grain"/></feMerge>
+    </filter>
+    <filter id="soft"><feGaussianBlur stdDeviation=".8"/></filter>
+  </defs>
+  <rect width="1200" height="675" fill="#5d6455"/>
+  <rect width="1200" height="675" filter="url(#terrain)"/>
+
+  <g filter="url(#soft)">
+    <!-- Strassen -->
+    <path d="M-20 520 C 260 470, 420 430, 640 400 S 1000 330, 1230 300" stroke="#b9b6a4" stroke-width="12" fill="none" opacity=".8"/>
+    <path d="M610 -10 L 650 400 L 700 690" stroke="#aeab99" stroke-width="8" fill="none" opacity=".75"/>
+    <path d="M650 400 L 860 520 L 1210 560" stroke="#a7a493" stroke-width="6" fill="none" opacity=".7"/>
+    <!-- Betonfläche -->
+    <rect x="690" y="170" width="300" height="170" fill="#9d9c8e" opacity=".85"/>
+    <!-- Halle -->
+    <rect x="720" y="195" width="150" height="70" fill="#d6d4c8"/>
+    <rect x="720" y="265" width="150" height="10" fill="#3a3d35" opacity=".6"/>
+    <rect x="890" y="200" width="70" height="40" fill="#c8c6b9"/>
+    <rect x="890" y="240" width="70" height="7" fill="#3a3d35" opacity=".5"/>
+    <!-- Fahrzeuge Bereich A -->
+    <g fill="#2f332c">
+      <rect x="735" y="295" width="26" height="9"/><rect x="770" y="295" width="26" height="9"/><rect x="805" y="295" width="26" height="9"/>
+      <rect x="840" y="295" width="26" height="9"/><rect x="875" y="295" width="26" height="9"/><rect x="910" y="295" width="26" height="9"/>
+      <rect x="735" y="314" width="26" height="9"/><rect x="770" y="314" width="26" height="9"/><rect x="805" y="314" width="26" height="9"/>
+      <rect x="840" y="314" width="26" height="9"/><rect x="875" y="314" width="26" height="9"/><rect x="910" y="314" width="26" height="9"/>
+    </g>
+    <!-- Bereich B: Kommandoeinheiten mit Antennen -->
+    <rect x="330" y="420" width="120" height="70" fill="#8f8e80" opacity=".8"/>
+    <g fill="#272a24"><rect x="350" y="440" width="34" height="12"/><rect x="395" y="455" width="34" height="12"/></g>
+    <circle cx="372" cy="475" r="9" fill="none" stroke="#e5e3d6" stroke-width="2"/>
+    <circle cx="420" cy="438" r="7" fill="none" stroke="#e5e3d6" stroke-width="2"/>
+    <!-- Schatten / Gräben -->
+    <path d="M90 140 l 220 40 M120 170 l 180 30" stroke="#3d4237" stroke-width="3" opacity=".5"/>
+    <ellipse cx="1040" cy="560" rx="70" ry="22" fill="#474c40" opacity=".5"/>
+  </g>
+
+  <!-- Markierungen -->
+  <g fill="none" stroke="#ffd34d" stroke-width="2.5">
+    <rect x="715" y="280" width="235" height="56"/>
+    <rect x="318" y="408" width="144" height="94"/>
+  </g>
+  <g font-family="Consolas, 'Courier New', monospace" fill="#ffd34d" font-size="22" font-weight="700">
+    <rect x="715" y="250" width="30" height="28" fill="#1a1d18" stroke="none"/><text x="722" y="272">A</text>
+    <rect x="318" y="378" width="30" height="28" fill="#1a1d18" stroke="none"/><text x="325" y="400">B</text>
+  </g>
+  <!-- Fadenkreuz -->
+  <g stroke="#ffffff" stroke-width="1.5" opacity=".7">
+    <line x1="600" y1="20" x2="600" y2="60"/><line x1="600" y1="615" x2="600" y2="655"/>
+    <line x1="20" y1="337" x2="60" y2="337"/><line x1="1140" y1="337" x2="1180" y2="337"/>
+  </g>
+  <!-- Datenleisten -->
+  <g font-family="Consolas, 'Courier New', monospace" font-size="17" fill="#f2f2ea">
+    <rect x="0" y="0" width="1200" height="34" fill="#0d0f0c" opacity=".72"/>
+    <text x="16" y="23">03 NOV 2026  08:41:17Z   GSD 0.50 m   OFF-NADIR 14.2°</text>
+    <text x="1184" y="23" text-anchor="end">48°34'N  45°44'E</text>
+    <rect x="0" y="641" width="1200" height="34" fill="#0d0f0c" opacity=".72"/>
+    <text x="16" y="664">USIA-EA-26/0419 · ANLAGE 3 · BILDMATERIAL UNBESTÄTIGT</text>
+    <text x="1184" y="664" text-anchor="end">0      200 m</text>
+    <line x1="1060" y1="652" x2="1120" y2="652" stroke="#f2f2ea" stroke-width="3"/>
+  </g>
+</svg>
