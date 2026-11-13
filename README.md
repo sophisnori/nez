@@ -1,8 +1,8 @@
-# Swiss Report Forum (SRF): fiktive Nachrichtenseite
+# Neue Eidgenössische Zeitung (NEZ): fiktive Nachrichtenseite
 
-> **Alles auf dieser Website ist fiktiv.** Das «Swiss Report Forum» ist kein echtes Medium. Die Seite wurde für eine **Schulaufgabe zur Medienkompetenz** erstellt. Sie wird im Unterricht gezeigt und danach von der Lehrperson aufgelöst und besprochen.
+> **Alles auf dieser Website ist fiktiv.** Die «Neue Eidgenössische Zeitung» ist kein echtes Medium. Die Seite wurde für eine **Schulaufgabe zur Medienkompetenz** erstellt. Sie wird im Unterricht gezeigt und danach von der Lehrperson aufgelöst und besprochen.
 >
-> Es besteht keine Verbindung zu existierenden Medien, insbesondere nicht zu **Schweizer Radio und Fernsehen (SRF)**. Die Abkürzungsgleichheit ist Absicht: Sie ist Teil der Übung (siehe unten).
+> Es besteht keine Verbindung zu existierenden Medien, insbesondere nicht zur **Neuen Zürcher Zeitung (NZZ)**. Die Namensähnlichkeit ist Absicht: Sie ist Teil der Übung (siehe unten).
 
 ## Welche Artikel sind echt?
 
@@ -32,7 +32,7 @@ Die erfundenen Artikel wirken nicht durch Alarm glaubwürdig, sondern durch **Fo
 7. **Vage Quellen, gut versteckt.** Eine «Pentagon-nahe Quelle», ein Dokument, das «mehreren Redaktionen zugespielt» wurde: Bei genauem Lesen ist nichts überprüfbar.
 8. **Ruhiger Artikel, chaotisches Forum.** Der Text bleibt sachlich, die Emotionen (Wut, Empörung, Angst) übernehmen die Kommentare. Leserinnen und Leser übernehmen oft die Stimmung des Forums.
 9. **Teilen-Aufforderung.** «Teilen Sie den Artikel mit Menschen, die es wissen sollten» nutzt Verantwortungsgefühl als Verbreitungsmotor.
-10. **Ähnlicher Name.** «SRF» erinnert an ein bekanntes Medium, obwohl Gestaltung und Name verschieden sind.
+10. **Ähnlicher Name.** «Neue Eidgenössische Zeitung» (NEZ) klingt fast wie die «Neue Zürcher Zeitung» (NZZ). Wer nur flüchtig hinschaut, hält die Seite für ein etabliertes Medium. Dazu passt die Gründungsangabe 1998 im Impressum.
 11. **Echte Fotos zu erfundenen Meldungen.** Das Bundeshaus-Foto ist echt, der Beschluss nicht. Ein echtes Bild beweist nur, dass es den Ort gibt, nicht, dass die Meldung stimmt. Mit einer umgekehrten Bildersuche (z. B. Google Lens, TinEye) lässt sich herausfinden, woher ein Bild stammt und wann es zuerst auftauchte: Das Bundeshaus-Foto stammt von 2019. Das Bild zum EMP-Artikel zeigt keine EMP-Waffe, sondern das bekannte russische Störsystem «Krasukha-4», fotografiert im August 2022 an der Rüstungsmesse «Army-2022» bei Moskau. Ein echtes Militärfoto aus einem anderen Zusammenhang, mit einer neuen Bildlegende versehen: Genau so funktionieren viele Falschmeldungen zum Ukraine-Krieg.
 12. **Grafiken wirken wie Daten.** Die Bevölkerungskurve und die «Satellitenaufnahme» sehen nach Beleg aus, sind aber selbst gezeichnet.
 

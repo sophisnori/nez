@@ -1,4 +1,4 @@
-/* Swiss Report Forum – minimales JavaScript (kein Framework, kein Tracking).
+/* Neue Eidgenössische Zeitung – minimales JavaScript (kein Framework, kein Tracking).
    Fiktives Medium für ein Schulprojekt. Es werden keine Daten versendet. */
 (function () {
   "use strict";
@@ -15,7 +15,7 @@
   document.querySelectorAll("[data-share]").forEach(function (btn) {
     btn.addEventListener("click", function () {
       var url = window.location.href.split("#")[0];
-      var title = document.title.replace(/ – Swiss Report Forum$/, "");
+      var title = document.title.replace(/ – Neue Eidgenössische Zeitung$/, "");
       var kind = btn.getAttribute("data-share");
 
       if (kind === "native" && navigator.share) {

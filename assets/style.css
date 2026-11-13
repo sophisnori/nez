@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Swiss Report Forum – Stylesheet
+   Neue Eidgenössische Zeitung – Stylesheet
    Fiktives Medium für ein Schulprojekt zur Medienkompetenz.
    Aufbau: 1 Tokens · 2 Basis · 3 Kopf · 4 Ticker · 5 Startseite
            6 Artikel · 7 Sidebar · 8 Forum · 9 Fuss · 10 Impressum · 11 Print
@@ -7,16 +7,16 @@
 
 /* 1 · Tokens ------------------------------------------------------------- */
 :root {
-  --ink: #0e1c2b;          /* Fliesstext, fast schwarz mit Blaustich */
-  --navy: #10283f;         /* Markenfarbe */
-  --navy-2: #173a59;
-  --teal: #0b6466;         /* Links, Kicker */
-  --teal-soft: #e3efee;
-  --accent: #f2b200;       /* einzige Akzentfarbe: Signalgelb */
-  --paper: #fbfaf6;
+  --ink: #1e1515;          /* Fliesstext, fast schwarz mit warmem Stich */
+  --navy: #3b0e11;         /* Markenfarbe dunkel: Ochsenblut (Kopf-/Fusszeile) */
+  --navy-2: #b3121b;       /* Navigationsleiste: Schweizer Rot */
+  --teal: #a3111a;         /* Links, Kicker (dunkleres Rot für Kontrast) */
+  --teal-soft: #f9ebe9;
+  --accent: #da291c;       /* Akzent: Rot der Schweizer Fahne */
+  --paper: #fbfaf8;
   --card: #ffffff;
   --line: #dcd8cf;
-  --muted: #5a6672;
+  --muted: #6a5c5a;
   --serif: "Newsreader", "Iowan Old Style", Georgia, "Times New Roman", serif;
   --sans: "IBM Plex Sans", "Segoe UI", system-ui, -apple-system, Arial, sans-serif;
   --cond: "IBM Plex Sans Condensed", "Arial Narrow", "IBM Plex Sans", sans-serif;
@@ -41,9 +41,9 @@ a:hover { color: var(--navy); }
 h1, h2, h3 { font-family: var(--serif); line-height: 1.12; margin: 0; font-weight: 650; letter-spacing: -.01em; hyphens: auto; overflow-wrap: break-word; }
 
 :focus-visible {
-  outline: 3px solid var(--accent);
+  outline: 3px solid var(--navy);
   outline-offset: 2px;
-  box-shadow: 0 0 0 5px var(--navy);
+  box-shadow: 0 0 0 5px #fff;
   border-radius: 2px;
 }
 
@@ -54,7 +54,7 @@ h1, h2, h3 { font-family: var(--serif); line-height: 1.12; margin: 0; font-weigh
 }
 .skip-link {
   position: absolute; left: 8px; top: -60px; z-index: 50;
-  background: var(--accent); color: var(--navy); font-weight: 700;
+  background: var(--accent); color: #fff; font-weight: 700;
   padding: 10px 14px; text-decoration: none;
 }
 .skip-link:focus { top: 8px; }
@@ -73,11 +73,11 @@ h1, h2, h3 { font-family: var(--serif); line-height: 1.12; margin: 0; font-weigh
 /* 3 · Kopf --------------------------------------------------------------- */
 .topbar {
   background: var(--navy);
-  color: #b9c7d4;
+  color: #e6cfcc;
   font-size: .78rem;
 }
 .topbar .wrap { display: flex; justify-content: space-between; gap: 1rem; padding-top: 6px; padding-bottom: 6px; }
-.topbar a { color: #dbe5ee; text-decoration: none; }
+.topbar a { color: #f6e6e3; text-decoration: none; }
 .topbar a:hover { text-decoration: underline; color: #fff; }
 
 .masthead { background: var(--card); border-bottom: 1px solid var(--line); }
@@ -109,18 +109,18 @@ h1, h2, h3 { font-family: var(--serif); line-height: 1.12; margin: 0; font-weigh
 .mainnav ul::-webkit-scrollbar { display: none; }
 .mainnav a {
   display: block; padding: 11px 16px 9px;
-  color: #e7eef5; text-decoration: none;
+  color: #ffffff; text-decoration: none;
   font-family: var(--cond); font-weight: 600; font-size: .92rem; letter-spacing: .04em;
   border-bottom: 3px solid transparent; white-space: nowrap;
 }
-.mainnav a:hover, .mainnav a[aria-current="page"] { border-bottom-color: var(--accent); color: #fff; }
+.mainnav a:hover, .mainnav a[aria-current="page"] { border-bottom-color: #fff; color: #fff; }
 .mainnav li:first-child a { padding-left: 0; }
 
 /* 4 · Ticker ------------------------------------------------------------- */
 .ticker { background: var(--card); border-bottom: 1px solid var(--line); overflow: hidden; }
 .ticker .wrap { display: flex; align-items: stretch; gap: 0; }
 .ticker-label {
-  flex: none; background: var(--accent); color: var(--navy);
+  flex: none; background: var(--accent); color: #fff;
   font-family: var(--cond); font-weight: 700; font-size: .78rem; letter-spacing: .1em; text-transform: uppercase;
   padding: 9px 12px; display: flex; align-items: center;
 }
@@ -166,7 +166,7 @@ h1, h2, h3 { font-family: var(--serif); line-height: 1.12; margin: 0; font-weigh
 .card { display: flex; flex-direction: column; }
 .card figure { margin: 0 0 12px; }
 .card h3 { font-size: 1.32rem; margin-bottom: .45rem; }
-.card p { margin: 0 0 .6rem; color: #2a3a49; font-size: .97rem; }
+.card p { margin: 0 0 .6rem; color: #3a2a2a; font-size: .97rem; }
 .card .meta { margin-top: auto; font-size: .78rem; color: var(--muted); }
 .card .comments-count { font-weight: 600; color: var(--teal); }
 
@@ -175,7 +175,7 @@ h1, h2, h3 { font-family: var(--serif); line-height: 1.12; margin: 0; font-weigh
 .brief { padding: 14px 0; border-bottom: 1px solid var(--line); display: grid; grid-template-columns: 4.2rem 1fr; gap: 12px; }
 .brief time { font-family: var(--cond); font-weight: 600; color: var(--teal); font-size: .9rem; font-variant-numeric: tabular-nums; }
 .brief h3 { font-size: 1.08rem; margin-bottom: .25rem; }
-.brief p { margin: 0; font-size: .93rem; color: #33414f; }
+.brief p { margin: 0; font-size: .93rem; color: #3d2f2f; }
 
 .most-read { counter-reset: mr; list-style: none; padding: 0; margin: 0; }
 .most-read li { counter-increment: mr; display: grid; grid-template-columns: 2.2rem 1fr; padding: 10px 0; border-bottom: 1px solid var(--line); }
@@ -194,7 +194,7 @@ h1, h2, h3 { font-family: var(--serif); line-height: 1.12; margin: 0; font-weigh
 .breadcrumb span[aria-hidden] { margin: 0 .35em; }
 
 .article-head h1 { font-size: clamp(1.85rem, 4.2vw, 2.95rem); margin-bottom: .8rem; max-width: 22ch; }
-.subline { font-family: var(--serif); font-size: clamp(1.12rem, 2vw, 1.32rem); line-height: 1.45; margin: 0 0 1.2rem; color: #1d2f40; max-width: 40em; }
+.subline { font-family: var(--serif); font-size: clamp(1.12rem, 2vw, 1.32rem); line-height: 1.45; margin: 0 0 1.2rem; color: #2e1e1e; max-width: 40em; }
 
 .byline {
   display: flex; flex-wrap: wrap; align-items: center; gap: .4rem 1.2rem;
@@ -218,7 +218,7 @@ h1, h2, h3 { font-family: var(--serif); line-height: 1.12; margin: 0; font-weigh
   background: var(--card); border: 1px solid #b9c2cb; border-radius: 3px;
   padding: 8px 12px; cursor: pointer; text-decoration: none;
 }
-.btn:hover { border-color: var(--navy); background: #f2f5f8; color: var(--navy); }
+.btn:hover { border-color: var(--navy); background: #fbefed; color: var(--navy); }
 .btn svg { width: 16px; height: 16px; }
 .btn-primary { background: var(--navy); color: #fff; border-color: var(--navy); }
 .btn-primary:hover { background: var(--navy-2); color: #fff; }
@@ -274,13 +274,13 @@ figcaption .credit { text-transform: uppercase; letter-spacing: .06em; font-size
 .related .kicker { font-size: .68rem; margin-bottom: .15rem; }
 .related strong { font-family: var(--serif); font-weight: 600; line-height: 1.25; display: block; font-size: 1rem; }
 .related a:hover strong { text-decoration: underline; }
-.newsletter { background: var(--navy); color: #dce6ef; padding: 18px; }
+.newsletter { background: var(--navy); color: #f6e6e3; padding: 18px; }
 .newsletter h2 { color: #fff; border-top-color: var(--accent); }
 .newsletter p { margin: 0 0 12px; font-size: .9rem; }
 .newsletter label { display: block; font-size: .8rem; margin-bottom: 4px; }
 .newsletter input { background: #fff; color: var(--ink); width: 100%; padding: 9px 10px; border: 0; border-radius: 2px; font: inherit; margin-bottom: 10px; }
-.newsletter .btn { background: var(--accent); border-color: var(--accent); color: var(--navy); width: 100%; justify-content: center; }
-.newsletter .form-note { font-size: .78rem; color: var(--accent); margin: 8px 0 0; min-height: 1.1em; }
+.newsletter .btn { background: var(--accent); border-color: var(--accent); color: #fff; width: 100%; justify-content: center; }
+.newsletter .form-note { font-size: .78rem; color: #ffd9d4; margin: 8px 0 0; min-height: 1.1em; }
 
 /* 8 · Forum (Kommentare) ------------------------------------------------- */
 .forum { border-top: 3px solid var(--navy); padding: 18px 0 48px; max-width: 46em; }
@@ -306,8 +306,8 @@ figcaption .credit { text-transform: uppercase; letter-spacing: .06em; font-size
 .comment-head .avatar { width: 30px; height: 30px; font-size: .8rem; font-family: var(--sans); }
 .comment-head strong { font-weight: 700; }
 .comment-head time { color: var(--muted); font-size: .8rem; }
-.badge { font-size: .68rem; text-transform: uppercase; letter-spacing: .07em; padding: 2px 6px; border-radius: 2px; background: #eef1f4; color: var(--muted); }
-.badge-top { background: var(--accent); color: var(--navy); font-weight: 700; }
+.badge { font-size: .68rem; text-transform: uppercase; letter-spacing: .07em; padding: 2px 6px; border-radius: 2px; background: #f3ecea; color: var(--muted); }
+.badge-top { background: var(--accent); color: #fff; font-weight: 700; }
 .badge-mod { background: var(--navy); color: #fff; }
 .comment p { margin: 8px 0 8px 40px; font-size: .98rem; }
 .replies .comment p { margin-left: 40px; }
@@ -322,18 +322,18 @@ figcaption .credit { text-transform: uppercase; letter-spacing: .06em; font-size
 .more-comments { margin-top: 18px; }
 
 /* 9 · Fuss --------------------------------------------------------------- */
-.site-footer { background: var(--navy); color: #b9c7d4; font-size: .88rem; padding: 34px 0 26px; margin-top: 20px; }
+.site-footer { background: var(--navy); color: #e6cfcc; font-size: .88rem; padding: 34px 0 26px; margin-top: 20px; }
 .site-footer .wrap { display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 28px; }
 .site-footer .brand { color: #fff; }
-.site-footer .brand-text { border-left-color: #3a5670; }
-.site-footer .brand-tagline { color: #9fb2c3; }
+.site-footer .brand-text { border-left-color: #6e2a2e; }
+.site-footer .brand-tagline { color: #e0bfbb; }
 .site-footer h2 { font-family: var(--cond); font-size: .78rem; letter-spacing: .12em; text-transform: uppercase; color: #fff; margin-bottom: 8px; }
 .site-footer ul { list-style: none; margin: 0; padding: 0; }
 .site-footer li { margin-bottom: 4px; }
-.site-footer a { color: #dce6ef; text-decoration: none; }
+.site-footer a { color: #f6e6e3; text-decoration: none; }
 .site-footer a:hover { text-decoration: underline; color: #fff; }
-.footer-bottom { grid-column: 1 / -1; border-top: 1px solid #2c4a65; padding-top: 14px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: .6rem 1.4rem; font-size: .8rem; }
-.fiction-note { color: #8ea3b6; }
+.footer-bottom { grid-column: 1 / -1; border-top: 1px solid #5e2226; padding-top: 14px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: .6rem 1.4rem; font-size: .8rem; }
+.fiction-note { color: #d6aeaa; }
 
 /* 10 · Impressum --------------------------------------------------------- */
 .page { padding-top: 28px; padding-bottom: 56px; }
@@ -382,8 +382,8 @@ figcaption .credit { text-transform: uppercase; letter-spacing: .06em; font-size
   @page {
     size: A4;
     margin: 18mm 18mm 20mm 20mm;
-    @top-left { content: "Swiss Report Forum"; font-family: Georgia, serif; font-size: 8.5pt; color: #333; }
-    @top-right { content: "srf-forum · Fakten. Hintergründe. Forum."; font-family: Arial, sans-serif; font-size: 7.5pt; color: #777; }
+    @top-left { content: "Neue Eidgenössische Zeitung"; font-family: Georgia, serif; font-size: 8.5pt; color: #333; }
+    @top-right { content: "NEZ · Fakten. Hintergründe. Forum."; font-family: Arial, sans-serif; font-size: 7.5pt; color: #777; }
     @bottom-left { content: "Fiktiver Artikel – Schulprojekt Medienkompetenz"; font-family: Arial, sans-serif; font-size: 7pt; color: #777; }
     @bottom-right { content: "Seite " counter(page) " von " counter(pages); font-family: Arial, sans-serif; font-size: 7.5pt; color: #555; }
   }
@@ -403,14 +403,14 @@ figcaption .credit { text-transform: uppercase; letter-spacing: .06em; font-size
   /* Kopfzeile mit Medienname (erste Seite) */
   .print-masthead {
     display: flex !important; align-items: flex-end; justify-content: space-between;
-    border-bottom: 2pt solid #10283f; padding-bottom: 4pt; margin-bottom: 12pt;
+    border-bottom: 2pt solid #3b0e11; padding-bottom: 4pt; margin-bottom: 12pt;
     font-family: Georgia, "Times New Roman", serif;
   }
-  .print-masthead .pm-mark { font-size: 22pt; font-weight: 800; letter-spacing: -.5pt; color: #10283f; line-height: 1; }
-  .print-masthead .pm-name { font-family: Arial, sans-serif; font-size: 8pt; letter-spacing: 1.5pt; text-transform: uppercase; margin-left: 8pt; color: #10283f; }
+  .print-masthead .pm-mark { font-size: 22pt; font-weight: 800; letter-spacing: -.5pt; color: #3b0e11; line-height: 1; }
+  .print-masthead .pm-name { font-family: Arial, sans-serif; font-size: 8pt; letter-spacing: 1.5pt; text-transform: uppercase; margin-left: 8pt; color: #3b0e11; }
   .print-masthead .pm-meta { font-family: Arial, sans-serif; font-size: 7.5pt; color: #555; text-align: right; }
 
-  .kicker { color: #0b6466 !important; font-size: 8pt; margin-bottom: 4pt; }
+  .kicker { color: #a3111a !important; font-size: 8pt; margin-bottom: 4pt; }
   .article-head h1 { font-size: 22pt; line-height: 1.12; max-width: none; margin-bottom: 6pt; }
   .subline { font-size: 12pt; line-height: 1.4; margin-bottom: 8pt; color: #111; }
   .byline { font-size: 8.5pt; padding: 4pt 0; margin-bottom: 10pt; border-color: #999; gap: 2pt 12pt; color: #333; }
@@ -425,9 +425,9 @@ figcaption .credit { text-transform: uppercase; letter-spacing: .06em; font-size
   .article-body { font-size: 10.5pt; line-height: 1.5; max-width: none; columns: 1; }
   .article-body p { margin: 0 0 6pt; orphans: 3; widows: 3; text-align: left; }
   .article-body h2 { font-size: 12pt; margin: 12pt 0 4pt; break-after: avoid; }
-  .pullquote { font-size: 13pt; margin: 10pt 0; padding-left: 10pt; border-left: 3pt solid #f2b200; break-inside: avoid; color: #10283f; }
+  .pullquote { font-size: 13pt; margin: 10pt 0; padding-left: 10pt; border-left: 3pt solid #da291c; break-inside: avoid; color: #3b0e11; }
   .pullquote footer { font-size: 8pt; }
-  .factbox { background: none !important; border: 1pt solid #999; border-top: 2.5pt solid #0b6466; padding: 6pt 10pt; font-size: 9pt; break-inside: avoid; }
+  .factbox { background: none !important; border: 1pt solid #999; border-top: 2.5pt solid #a3111a; padding: 6pt 10pt; font-size: 9pt; break-inside: avoid; }
   .article-end { font-size: 8pt; color: #444; }
 
   a { color: inherit !important; text-decoration: none !important; }
