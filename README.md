@@ -61,12 +61,7 @@ Die erfundenen Artikel wirken nicht durch Alarm glaubwürdig, sondern durch **Fo
 11. **Echte Fotos zu erfundenen Meldungen.** Ein echtes Bild beweist nur, dass es den Ort oder das Objekt gibt, nicht, dass die Meldung stimmt. Mit einer umgekehrten Bildersuche (z. B. Google Lens, TinEye) findet man heraus, woher ein Bild stammt und wann es zuerst auftauchte.
 12. **Satellitenbilder wirken wie Beweise.** Ein echtes Satellitenbild plus eine erfundene Bildlegende ergibt eine glaubwürdige Falschmeldung.
 13. **Genaue Zahlen, falsches Datum.** «51,64 Prozent Ja, Ständemehr 13 4/2 zu 7 2/2» klingt nach amtlichem Resultat, aber am angegebenen Tag gab es keine Abstimmung.
-14. **Kleine Rechtschreibfehler.** Echte Redaktionen haben ein Korrektorat, Fake-Seiten oft nicht. Im Fliesstext der drei erfundenen Artikel stecken absichtlich je zwei Fehler. Titel und Untertitel sind fehlerfrei, damit der erste Eindruck professionell bleibt:
-    - Bevölkerungsobergrenze: «Stimmbeteilligung» (statt Stimmbeteiligung), «seperaten» (statt separaten)
-    - EMP-Waffe: «Unabhänig» (statt Unabhängig), «Warscheinlichkeit» (statt Wahrscheinlichkeit)
-    - Voyager: «identifitziert» (statt identifiziert), «Telefonkonferrenz» (statt Telefonkonferenz)
-
-    Der echte Altman-Artikel ist fehlerfrei.
+14. **Kleine Rechtschreibfehler.** Echte Redaktionen haben ein Korrektorat, Fake-Seiten oft nicht. Im Fliesstext der drei erfundenen Artikel stecken absichtlich je zwei Fehler. Titel und Untertitel sind fehlerfrei, damit der erste Eindruck professionell bleibt. Alle sechs Fehler mit Fundstelle: **[FEHLERNACHWEIS.md](FEHLERNACHWEIS.md)**
 
 **Hinweise, die man hätte finden können:** Das Impressum verlinkt auf dieses Repository. Die Telefonnummer +41 31 000 00 00 und die Handelsregisternummer CHE-000.000.000 sind offensichtliche Platzhalter, die E-Mail-Adresse endet auf `.example`. Dokumentnummern lassen sich nirgends finden, die «USIA» existiert nicht, und am angegebenen Abstimmungssonntag gab es keine Abstimmung. Im Forum stellen einzelne Nutzer genau diese Fragen («Auf nasa.gov finde ich sie nicht»).
 
@@ -94,6 +89,7 @@ nez/
 │   ├── favicon.svg
 │   └── img/
 ├── .nojekyll
+├── FEHLERNACHWEIS.md
 ├── LICENSE
 └── README.md
 ```
