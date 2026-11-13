@@ -92,6 +92,7 @@ Alle Pfade sind relativ, die Seite funktioniert deshalb auch unter einem Projekt
 | `foto-bundeshaus.jpg`, Bundeshaus Bern | Axel Tschentscher | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bern_Parliament_Plaza_Flagged_Wide_2019-09-13_23-11.jpg) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 | `foto-voyager.jpg`, Voyager (künstlerische Darstellung) | NASA/JPL-Caltech | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:An_artist%E2%80%99s_concept_of_the_Voyager_spacecraft.jpg) | gemeinfrei |
 | `foto-ewk-antennen.jpg`, Antennen des Störsystems Krasukha-4, Messe «Army-2022» | Mike1979 Russia | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:1RL257E_Krasukha-4_Army-2022_2022-08-20_2461.jpg) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
+| `foto-altman-ted.jpg`, Sam Altman an der TED-Konferenz, April 2025 | Steve Jurvetson | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sam_Altman_speaking_at_TED.jpg) | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/) |
 | `foto-mainboard.jpg`, Gaming-Mainboard | PantheraLeo1359531 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Asus-ROG-Strix-Z390-F-Gaming-Motherboard_20201120_DSC6025.jpg) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
 | alle `.svg`-Grafiken | selbst erstellt | – | MIT (wie der Code) |
 

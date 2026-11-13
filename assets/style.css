@@ -452,4 +452,7 @@ figcaption .credit a { color: inherit; }
 }
 
 /* Bild mit Hauptmotiv in der Mitte */
-img.crop-center { object-position: 50% 55%; }
+.lead-figure img.crop-center, .card figure img.crop-center, .related img.crop-center { object-position: 50% 55%; }
+
+/* Hochformat-Porträt: Ausschnitt auf Kopf und Schultern */
+.lead-figure img.crop-face, .card figure img.crop-face, .related img.crop-face { object-position: 50% 6%; }
