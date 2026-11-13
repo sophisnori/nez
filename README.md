@@ -4,7 +4,7 @@
 >
 > Die Neue Eidgenössische Zeitung AG, die Adresse, die Redaktion und alle Personen in den erfundenen Artikeln gibt es nicht. Es besteht keine Verbindung zu existierenden Medien, insbesondere nicht zur **Neuen Zürcher Zeitung (NZZ)**.
 >
-> Die «Tragfähigkeitsinitiative» und ihr Abstimmungsresultat sind erfunden. Sie haben nichts mit der echten Volksinitiative «Keine 10-Millionen-Schweiz!» zu tun, über die am 14. Juni 2026 abgestimmt wurde.
+> Die «Tragfähigkeitsinitiative» und ihr Abstimmungsresultat sind erfunden. Sie haben nichts mit der echten Volksinitiative «Keine 10-Millionen-Schweiz!» zu tun. Diese wurde am 14. Juni 2026 mit rund 55 Prozent Nein-Stimmen abgelehnt und scheiterte auch am Ständemehr ([swissinfo](https://www.swissinfo.ch/ger/abstimmungen/resultate-der-abstimmung-vom-14-juni-2026-in-der-schweiz/91505857), [SRF](https://www.srf.ch/news/schweiz/abstimmung-vom-14-juni-initiative-keine-10-mio-schweiz-scheitert-am-staendemehr)). In der Realität ging die Abstimmung also genau umgekehrt aus.
 
 ## Welche Artikel sind echt?
 
